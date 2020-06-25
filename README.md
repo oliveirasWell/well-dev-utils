@@ -4,8 +4,8 @@ A collection of useful tools and features at diverse languages to help all devel
 
 # Table of Contents
 1. [Git](#git)
-1.1 [Merge branch from another repository](##Merge branch from another repository)
-1.2 [Create a Tag and push](##Create a Tag and push)
+2. [Merge branch from another repository](#git)
+3. [Create a Tag and push](#git)
 
 
 # Utils
