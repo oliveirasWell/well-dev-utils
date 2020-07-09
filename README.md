@@ -26,3 +26,11 @@ git merge origin2/branchYouWantToMerge
 git tag -a v1.0 -m “Sum functionality”
 git push
 ```
+
+
+
+## Show files unmerged
+
+```
+git diff --name-status --diff-filter=U
+```
