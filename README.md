@@ -12,6 +12,13 @@ A collection of useful tools and features at diverse languages to help all devel
 
 ## Git
 
+
+## Add a repo subtree 
+
+```
+git subtree add --prefix=rails git://github.com/rails/rails.git master
+```
+
 ## Merge branch from another repository
 
 ```
