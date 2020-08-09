@@ -6,7 +6,7 @@ A collection of useful tools and features at diverse languages to help all devel
 1. [Git](#git)
 2. [Merge branch from another repository](#git)
 3. [Create a Tag and push](#git)
-
+4. [Create a shortcut at linux](#git)
 
 # Utils
 
@@ -40,4 +40,23 @@ git push
 
 ```
 git diff --name-status --diff-filter=U
+```
+
+## Create a shortcut at linux
+
+run: `gedit ~/Desktop/Skype.desktop`
+
+
+Then:
+
+```
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Version=1.0
+Type=Application
+Terminal=false
+Exec=/snap/bin/skype
+Name=Skype
+Comment=Skype
+Icon=/snap/skype/23/usr/share/icons/hicolor/256x256/apps/skypeforlinux.png
 ```
