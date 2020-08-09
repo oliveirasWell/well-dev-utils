@@ -13,13 +13,13 @@ A collection of useful tools and features at diverse languages to help all devel
 ## Git
 
 
-## Add a repo subtree 
+### Add a repo subtree 
 
 ```
 git subtree add --prefix=rails git://github.com/rails/rails.git master
 ```
 
-## Merge branch from another repository
+### Merge branch from another repository
 
 ```
 git remote add origin2 https://github.com/user/otherRepo
@@ -27,7 +27,7 @@ git merge origin2/branchYouWantToMerge
 ```
 
 
-## Create a Tag and push
+### Create a Tag and push
 
 ```
 git tag -a v1.0 -m “Sum functionality”
@@ -36,13 +36,14 @@ git push
 
 
 
-## Show files unmerged
+### Show files unmerged
 
 ```
 git diff --name-status --diff-filter=U
 ```
+## Linux
 
-## Create a shortcut at linux
+### Create a shortcut at linux
 
 run: `gedit ~/Desktop/Skype.desktop`
 
