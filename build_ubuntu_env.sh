@@ -92,8 +92,12 @@ sudo apt install ratbagd
 sudo apt-add-repository ppa:libratbag-piper/piper-libratbag-git
 sudo apt install piper -y
 
-# Scala
+# peek
+sudo add-apt-repository ppa:peek-developers/stable
+sudo apt update
+sudo apt install peek
 
+# Scala
 echo "deb https://dl.bintray.com/sbt/debian /" | sudo tee -a /etc/apt/sources.list.d/sbt.list
 curl -sL "https://keyserver.ubuntu.com/pks/lookup?op=get&search=0x2EE0EA64E40A89B84B2DF73499E82A75642AC823" | sudo apt-key add
 sudo apt-get update
