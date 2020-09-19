@@ -31,7 +31,7 @@ git merge origin2/branchYouWantToMerge
 
 ```
 git tag -a v1.0 -m “Sum functionality”
-git push
+git push --follow-tags
 ```
 
 
