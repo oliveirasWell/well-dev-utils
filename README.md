@@ -31,9 +31,8 @@ git merge origin2/branchYouWantToMerge
 
 ```
 git tag -a v1.0 -m “Sum functionality”
-git push --follow-tags
+git push origin v1.0
 ```
-
 
 
 ### Show files unmerged
@@ -42,6 +41,11 @@ git push --follow-tags
 git diff --name-status --diff-filter=U
 ```
 ## Linux
+
+### Fix ubuntu keyboard delay 
+
+https://bugs.launchpad.net/ubuntu/+bug/1388770
+
 
 ### Create a shortcut at linux
 
@@ -61,3 +65,6 @@ Name=Skype
 Comment=Skype
 Icon=/snap/skype/23/usr/share/icons/hicolor/256x256/apps/skypeforlinux.png
 ```
+
+
+
