@@ -106,4 +106,19 @@ sudo apt-get install sbt
 # Spark
 # https://computingforgeeks.com/how-to-install-apache-spark-on-ubuntu-debian/
 
+# zsh
+sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+git clone https://github.com/t413/zsh-background-notify.git ~/.zsh-background-notify
+git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
+git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+
+source $HOME/.zsh-background-notify/bgnotify.plugin.zsh
+
+# fusuma
+sudo gpasswd -a $USER input
+sudo apt-get install libinput-tools
+sudo apt-get install ruby
+sudo gem install fusuma
+sudo apt-get install xdotool
+
 reboot
