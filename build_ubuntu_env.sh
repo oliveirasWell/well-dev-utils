@@ -33,13 +33,15 @@ sudo snap install go
 sudo snap install ngrok
 sudo snap install docker
 sudo snap install htop
+sudo snap install telegram-desktop
+sudo snap install flameshot
+sudo snap install deluge-lukewh
 
 # kubernetes
 sudo snap install kubectl --classic
 
 # Apts
 sudo apt install at -y
-sudo apt install flameshot -y
 sudo apt install curl -y
 sudo apt install npm -y
 sudo apt install maven -y
@@ -120,5 +122,12 @@ sudo apt-get install libinput-tools
 sudo apt-get install ruby
 sudo gem install fusuma
 sudo apt-get install xdotool
+
+# teams
+rpm -U https://packages.microsoft.com/yumrepos/ms-teams/teams-1.3.00.25560-1.x86_64.rpm
+
+# dropbox
+sudo dpkg https://linux.dropbox.com/packages/ubuntu/dropbox_2020.03.04_amd64.deb
+
 
 reboot
