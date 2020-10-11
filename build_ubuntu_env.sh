@@ -41,6 +41,8 @@ sudo snap install deluge-lukewh
 sudo snap install kubectl --classic
 
 # Apts
+
+sudo apt install apt-get install libgl1-mesa-glx libegl1-mesa libxrandr2 libxrandr2 libxss1 libxcursor1 libxcomposite1 libasound2 libxi6 libxtst6 -y
 sudo apt install at -y
 sudo apt install curl -y
 sudo apt install npm -y
