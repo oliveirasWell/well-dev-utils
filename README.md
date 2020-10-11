@@ -67,4 +67,7 @@ Icon=/snap/skype/23/usr/share/icons/hicolor/256x256/apps/skypeforlinux.png
 ```
 
 
+# Tutorial of instalations 
 
+## Anaconda 
+https://www.digitalocean.com/community/tutorials/how-to-install-anaconda-on-ubuntu-18-04-quickstart-pt
