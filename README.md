@@ -71,3 +71,7 @@ Icon=/snap/skype/23/usr/share/icons/hicolor/256x256/apps/skypeforlinux.png
 
 ## Anaconda 
 https://www.digitalocean.com/community/tutorials/how-to-install-anaconda-on-ubuntu-18-04-quickstart-pt
+
+
+## Backup extensions
+https://www.ubuntubuzz.com/2018/08/backup-and-restore-gnome-shell-extensions.html
