@@ -22,6 +22,8 @@ unzip MouseServerLinux64.zip
 sudo gdebi mouseserver-1.0.1-x86_64.deb -n 
 
 # npms
+
+sudo yarn global add expo-cli
 sudo yarn global add nativefier
 sudo yarn global add npm
 sudo yarn global add bower 
