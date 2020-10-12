@@ -44,7 +44,7 @@ git diff --name-status --diff-filter=U
 
 ### Fix ubuntu keyboard delay 
 
-https://bugs.launchpad.net/ubuntu/+bug/1388770
+https://askubuntu.com/questions/1035882/input-delay-when-using-two-keyboards-under-ubuntu-18-04-xorg
 
 
 ### Create a shortcut at linux
